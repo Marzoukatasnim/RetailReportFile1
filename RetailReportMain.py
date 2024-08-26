@@ -9,8 +9,7 @@ from ConnectionDir.ConnectionFile import *
 
 SERVER_CHECK_QUERY = '''
 
-        SELECT [FLAG]
-          FROM [POS_MASTER_DB].[dbo].[REPORT_LOGIN]
+        SELECT [FLAG] FROM [POS_MASTER_DB].[dbo].[REPORT_LOGIN]
 		  WHERE [DepartmentId] = 3
 
 '''
